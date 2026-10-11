@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /profile
+Disallow: /applications
+Disallow: /saved-jobs
+Disallow: /admin
+Disallow: /login
+Disallow: /signup
+Disallow: /forgot-password
+Sitemap: https://ivy6.example/sitemap.xml

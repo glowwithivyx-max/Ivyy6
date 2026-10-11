@@ -1,0 +1,35 @@
+{
+  "name": "ivy6-career-platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "server": "node server/index.js",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "lucide-react": "latest",
+    "express": "latest",
+    "cors": "latest",
+    "helmet": "latest",
+    "express-rate-limit": "latest",
+    "resend": "latest",
+    "openai": "latest",
+    "@supabase/supabase-js": "latest",
+    "zod": "latest",
+    "dotenv": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}
